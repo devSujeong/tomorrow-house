@@ -1,8 +1,7 @@
 @import './base/fonts';
+@import './base/normalize';
+@import './base/reset';
 
-body {
-  font-family: 'Noto Sans KR', sans-serif;
-}
 p {
   color: #f00;
 }
