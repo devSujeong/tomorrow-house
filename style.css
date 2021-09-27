@@ -383,6 +383,30 @@ body {
   font-size: 16px;
   color: #3f4150; }
 
+.tag-red, .tag-green, .tag-gray {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.005em;
+  font-weight: 700;
+  height: 20px;
+  padding: 0 6px;
+  border-radius: 4px; }
+
+.tag-red {
+  color: #fff;
+  background: #f86d7d; }
+
+.tag-green {
+  color: #fff;
+  background: #22c58b; }
+
+.tag-gray {
+  color: #8c8d96;
+  background: #e0e2e7; }
+
 /*
  * mobile (<768px)
  * fixture : sm

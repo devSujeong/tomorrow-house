@@ -18,7 +18,7 @@ $flex-map: (
 }
 
 @mixin inline-flexbox($jc: center, $ai: center) {
-  display: flex;
+  display: inline-flex;
   justify-content: $jc;
   align-items: $ai;
 }
