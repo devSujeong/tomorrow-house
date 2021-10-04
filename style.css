@@ -757,7 +757,7 @@ i {
     .my-menu-content::before {
       border-bottom-color: #e0e2e7; }
     .my-menu-content::after {
-      top: -23px;
+      top: -22px;
       border-bottom-color: #ffffff; }
   .my-menu-list {
     width: 200px;
@@ -770,6 +770,10 @@ i {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #3f4150;
     height: 44px;
     padding: 0 8px;
     width: 100%; }
