@@ -317,7 +317,9 @@ body {
 .avartar-24, .avartar-32 {
   display: block;
   overflow: hidden;
-  border-radius: 50%; }
+  border-radius: 50%;
+  background: url("../../assets/images/img-user-default.png") no-repeat center center;
+  background-size: contain; }
   .avartar-24 img, .avartar-32 img {
     width: 100%;
     height: 100%;
@@ -725,6 +727,8 @@ i {
     height: 32px;
     border-radius: 50%;
     overflow: hidden;
+    background: url("../../assets/images/img-user-default.png") no-repeat center center;
+    background-size: contain;
     border: 3px solid #ffffff;
     transition: border-color 200ms ease-in-out; }
     .my-menu-button:hover, .my-menu-button.is-active {
@@ -949,5 +953,46 @@ i {
     .gnb-right .input-group {
       width: 264px;
       margin-right: 24px; } }
+
+.sidebar {
+  width: 240px;
+  padding: 32px 20px;
+  background: #ffffff; }
+  .sidebar-header {
+    padding: 0 12px; }
+    .sidebar-header .logo a {
+      display: inline-block; }
+    .sidebar-header .logo img {
+      display: block;
+      width: auto;
+      height: 20px; }
+  .sidebar-user, .sidebar-auth {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 88px; }
+  .sidebar-user a {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%; }
+  .sidebar-user .avartar-24 {
+    margin-right: 8px;
+    flex-shrink: 0; }
+  .sidebar-user .username {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: #3f4150;
+    font-weight: 700;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; }
+  .sidebar-auth {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .sidebar-auth a {
+      width: 84px; }
 
 /*# sourceMappingURL=style.css.map */
