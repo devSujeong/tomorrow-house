@@ -9,6 +9,10 @@
     height: $button-size;
     border-radius: 50%;
     overflow: hidden;
+    background: url('../../assets/images/img-user-default.png') no-repeat center
+      center;
+    background-size: contain;
+
     border: 3px solid $white;
     transition: border-color 200ms ease-in-out;
 

@@ -2,6 +2,9 @@
   display: block;
   overflow: hidden;
   border-radius: 50%;
+  background: url('../../assets/images/img-user-default.png') no-repeat center
+    center;
+  background-size: contain;
 
   img {
     width: 100%;
