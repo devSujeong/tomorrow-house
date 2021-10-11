@@ -1,7 +1,21 @@
 .sidebar {
-  width: 240px;
+  $sidebar-width: 240px; // NOTE:
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: $sidebar-level;
+  width: $sidebar-width;
+  height: 100vh;
+  overflow-y: auto;
   padding: 32px 20px;
   background: $white;
+  transform: translate3d(-#{$sidebar-width}, 0, 0); // NOTE:
+  transition: transform 300ms ease-in-out; // NOTE:
+  overscroll-behavior: contain; // NOTE:
+
+  &.is-active {
+    transform: translate3d(0, 0, 0);
+  }
 
   &-header {
     padding: 0 12px;
@@ -80,5 +94,9 @@
         }
       }
     }
+  }
+
+  &::-webkit-scrollbar {
+    display: none;
   }
 }
