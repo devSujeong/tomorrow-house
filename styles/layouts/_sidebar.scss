@@ -53,4 +53,14 @@
       width: 84px;
     }
   }
+
+  &-nav {
+    .drawer-menu {
+      border-top: 1px solid $border;
+
+      &.is-expert {
+        border-bottom: 1px solid $border;
+      }
+    }
+  }
 }
