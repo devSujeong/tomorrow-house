@@ -1,5 +1,5 @@
 .sidebar {
-  $sidebar-width: 240px; // NOTE:
+  $sidebar-width: 240px;
   position: fixed;
   top: 0;
   left: 0;
@@ -9,9 +9,9 @@
   overflow-y: auto;
   padding: 32px 20px;
   background: $white;
-  transform: translate3d(-#{$sidebar-width}, 0, 0); // NOTE:
-  transition: transform 300ms ease-in-out; // NOTE:
-  overscroll-behavior: contain; // NOTE:
+  transform: translate3d(-#{$sidebar-width}, 0, 0);
+  transition: transform 300ms ease-in-out;
+  overscroll-behavior: contain;
 
   &.is-active {
     transform: translate3d(0, 0, 0);
